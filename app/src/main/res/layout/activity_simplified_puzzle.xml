@@ -5,32 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo2"
-    tools:context=".MainActivity">
+    tools:context=".SimplifiedPuzzleActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
+        android:id="@+id/subirimagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
         android:backgroundTint="@color/celeste"
-        android:textSize="20dp"
-        android:text="Stf-Puzzle Simplified"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:text="Stf-Puzzle SV"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.221"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="192dp"
+        android:id="@+id/comenzarpuzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164dp"
         android:backgroundTint="@color/celeste"
-        android:text="Stf-Memory Classic"
-        android:textSize="20dp"
+        android:text="Comenzar Juego"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintHorizontal_bias="0.24"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
